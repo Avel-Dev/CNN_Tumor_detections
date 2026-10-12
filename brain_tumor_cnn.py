@@ -1,27 +1,3 @@
-"""
-Brain Tumor Classification Using CNN
-------------------------------------
-Complete training, evaluation, model-saving, and Tkinter GUI application.
-
-Dataset:
-https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
-
-Expected dataset structure:
-brain_tumor_dataset/
-├── no/
-└── yes/
-
-Usage:
-1. Set DATASET_PATH below.
-2. Run this file.
-3. The model will train and save best_brain_tumor_cnn.pth.
-4. A Tkinter GUI will open after training.
-5. Use "Open MRI Image" to classify an image.
-
-To launch only the GUI after a model has already been trained:
-    python brain_tumor_cnn.py --gui
-"""
-
 import os
 import random
 import copy
